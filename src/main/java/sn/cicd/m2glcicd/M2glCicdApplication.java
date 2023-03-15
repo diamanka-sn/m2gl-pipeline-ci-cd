@@ -11,7 +11,7 @@ public class M2glCicdApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "Bienvenue!!!";
+		return "Bienvenue tous le monde!!!";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(M2glCicdApplication.class, args);
